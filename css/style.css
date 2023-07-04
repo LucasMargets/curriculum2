@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(121, 121, 121);
+    padding: 0px;
+    margin: 0px;
+}
+.x{
+    background-color: rgb(197, 197, 196);
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.foto1{
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.nm{
+    text-align: center;
+}
+.pr{
+    align-items: center;
+    text-align: center;
+}
+.morrison{
+  max-width: 150px;
+}
+.morrison:hover{
+  transform: scale(1.1);
+}
+footer{
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+}
+.footer {
+    background-color: rgb(197, 197, 196);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    border-radius: 5px;
+     }
+    .footer .foot {
+      width: 80px;
+      text-align: center; }
+    .footer .mail {
+      color: black;
+      font-family: 'Montserrat', sans-serif; }
+
+      header .x {
+        text-align: center;
+        margin-top: 1px; 
+      }
+      
+      header .foto1 {
+        width: 125px;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 5px;
+        }
+        header .logo {
+          width: 100px;
+          text-align: center; }
+    
+      header .menu {
+        list-style-type: none;
+        text-align: center;
+        border-radius: 30px;
+        overflow: hidden; ;
+        }
+      
+      header .menu li {
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        padding: 10px 0px;
+        border: 1px solid black;
+        border-radius: 30px;
+        max-width: 280px;
+        width: 280px;
+        overflow: hidden; }
+      
+      header .menu li a {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        overflow: hidden;
+        max-width: 280px; }
+        header .menu li a:hover {
+          color: black;
+          font-weight: bold;
+          overflow: hidden; 
+        }
+
+          @media screen and (max-width: 768px)  {
+            .menu{
+              margin-right: 20px
+            }
+          }
